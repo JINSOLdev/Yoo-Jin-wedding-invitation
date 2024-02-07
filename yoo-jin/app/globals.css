@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+hr {
+    background: #eee;
+    height: 1px;
+    border: 0;
+}
 .container {
     width: 800px;
     display: block;
