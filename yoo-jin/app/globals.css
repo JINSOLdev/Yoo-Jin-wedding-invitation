@@ -5,8 +5,6 @@
 }
 .container {
     width: 800px;
-    /* height: 1000px; */
-    /* background-color: #eee; */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -14,23 +12,107 @@
 .picture {
     width: 800px;
     height: 500px;
-    /* background-color: antiquewhite; */
-    margin-top: 250px;
+    margin-top: 350px;
 }
-.wedding {
+.text {
     text-align: right;
     padding: 20px;
-    /* margin-top: 100px; */
+    margin-top: 100px;
     font-weight: bold;
 }
-.title {
-    margin-top: 350px;
-    font-size: 40px;
-    /* font-weight: bold; */
-    /* font-family: 'Times New Roman', Times, serif; */
-    letter-spacing: 4.5px;
+.intro {
+    width: 500px;
+    height: 200px;
+    margin-top: 250px;
     margin-bottom: 20px;
+    background-color: #eee;
 }
-.date {
-    font-size: 25px;
+.date01 {
+    width: 500px;
+    height: 100px;
+    background-color: #eee;
+    margin: 0 0 50px 0;
+}
+.lyrics {
+    width: 800px;
+    height: 1000px;
+    background-color: #eee;
+    margin: 50px 0 50px 0;
+}
+.groomBride {
+    width: 800px;
+    height: 200px;
+    background-color: #eee;
+    margin: 50px 0 50px 0;
+}
+.dateLocation {
+    width: 800px;
+    height: 200px;
+    background-color: #eee;
+    margin: 50px 0 50px 0;
+}
+.thanksTo {
+    width: 800px;
+    height: 1000px;
+    background-color: #eee;
+    margin: 50px 0 50px 0;
+}
+.contact {
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px 0 50px 0;
+    background-color: #eee;
+}
+.phone {
+    width: 300px;
+    height: 100px;
+    background-color: #d1d1d1;
+    margin: 50px 0 50px 0;
+}
+.message {
+    width: 300px;
+    height: 100px;
+    background-color: #d1d1d1;
+    margin: 50px 0 50px 0;
+}
+.account {
+    width: 800px;
+    height: 300px;
+    background-color: #eee;
+    margin: 50px 0 50px 0;
+}
+.date02 {
+    width: 800px;
+    height: 600px;
+    background-color: #eee;
+    margin: 50px 0 50px 0;
+    /* padding: 50px 0 50px 0; */
+}
+#calendar {
+    width: 600px;
+    height: 400px;
+    background-color: #d1d1d1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.location {
+    width: 800px;
+    height: 800px;
+    background-color: #eee;
+    margin: 50px 0 50px 0;
+}
+.transport {
+    width: 800px;
+    height: 800px;
+    background-color: #eee;
+    margin: 50px 0 50px 0;
+}
+.rights {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
