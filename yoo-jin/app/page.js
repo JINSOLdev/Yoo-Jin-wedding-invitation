@@ -1,25 +1,26 @@
+import { Intro } from "./components/Intro";
+import { DateOne } from "./components/dateOne";
+import { Lyrics } from "./components/Lyrics";
+import { GroomBride } from "./components/GroomBride";
+import { DateLocation } from "./components/DateLocation";
+import { ThanksTo } from "./components/ThanksTo";
+import { Contact } from "./components/Contact";
+
 export default function Home() {
   return (
     <div className="container">
       <div className="text">THE WEDDING DAY</div>
       <img src={``} className="picture"></img>
-      <div className="intro">
-        신랑,신부 <br></br>
-        결혼합니다<br></br>
-      </div>
-      <div className="date01">날짜와 장소</div>
+      <Intro />
+      <DateOne />
       <hr></hr>
-      <div className="lyrics">노래가사 or 문구</div>
-      <p className="groomBride">신랑,신부</p>
-      <div className="dateLocation">날짜와 장소</div>
+      <Lyrics />
+      <GroomBride />
+      <DateLocation />
       <hr></hr>
-      <div className="thanksTo">인사말</div>
+      <ThanksTo />
       <hr></hr>
-      <div className="contact">
-        연락처
-        <div className="phone">전화아이콘</div>
-        <div className="message">메시지아이콘</div>
-      </div>
+      <Contact />
       <hr></hr>
       <div className="account">마음전하실곳</div>
       <hr></hr>
