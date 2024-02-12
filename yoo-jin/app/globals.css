@@ -16,8 +16,8 @@ hr {
 }
 .picture {
   width: 800px;
-  height: 500px;
-  margin-top: 350px;
+  height: 550px;
+  margin-top: 200px;
 }
 .text {
   text-align: right;
@@ -122,9 +122,17 @@ hr {
   justify-content: center;
   margin-bottom: 10px;
 }
-.gallery {
+.carousel-wrapper {
   width: 800px;
-  height: 800px;
-  background-color: #eee;
-  margin: 50px 0 50px 0;
+  height: 550px;
+  overflow: hidden;
+}
+.carousel-wrapper carousel {
+  display: flex;
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.2s;
+}
+.carousel-wrapper carousel img {
+  width: 500px;
+  height: 300px;
 }

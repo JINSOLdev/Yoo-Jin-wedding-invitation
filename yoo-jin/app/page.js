@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className="container">
       <div className="text">THE WEDDING DAY</div>
-      <img src={``} className="picture"></img>
+      <img src={`/picture01.jpg`} className="picture"></img>
       <Intro />
       <DateOne />
       <hr></hr>
