@@ -122,3 +122,9 @@ hr {
   justify-content: center;
   margin-bottom: 10px;
 }
+.gallery {
+  width: 800px;
+  height: 800px;
+  background-color: #eee;
+  margin: 50px 0 50px 0;
+}

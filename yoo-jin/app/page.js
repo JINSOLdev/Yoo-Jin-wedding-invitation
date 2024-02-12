@@ -9,6 +9,7 @@ import { Account } from "./components/Account";
 import { DateTwo } from "./components/DateTwo";
 import { Location } from "./components/Location";
 import { Transport } from "./components/Transport";
+import { Gallery } from "./components/Gallery";
 
 export default function Home() {
   return (
@@ -33,6 +34,8 @@ export default function Home() {
       <Location />
       <hr></hr>
       <Transport />
+      <hr></hr>
+      <Gallery />
       <p className="rights">© 2024-04-06 Yoohwan, Jinsol</p>
     </div>
   );
