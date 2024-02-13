@@ -1,56 +1,52 @@
-"use client";
+'use client';
 
-import { useEffect } from "react";
+import { useEffect, useState } from 'react';
 
 export function Gallery() {
-  useEffect(() => {
-    const prevButton = document.querySelector(".prev");
-    const nextButton = document.querySelector(".next");
-    const carousel = document.querySelector(".carousel");
+    const [index, setIndex] = useState(0);
 
-    let index = 0;
+    useEffect(() => {
+        const prevButton = document.querySelector('.carousel-wrapper .prev');
+        const nextButton = document.querySelector('.carousel-wrapper .next');
+        const carousel = document.querySelector('.carousel-wrapper .carousel');
 
-    const prevButtonClickHandler = () => {
-      if (index === 0) return;
-      index -= 1;
+        const handlePrevClick = () => {
+            console.log('Previous button clicked');
+            if (index === 0) return;
+            setIndex((prevIndex) => prevIndex - 1);
+            carousel.style.transform = `translateX(-${800 * (index - 1)}px)`; // 이전 버튼 클릭 시 carousel 이동
+        };
 
-      carousel.style.transform = `translate3d(-${500 * index}px, 0, 0)`;
-    };
+        const handleNextClick = () => {
+            console.log('Next button clicked');
+            if (index === 2) return;
+            setIndex((prevIndex) => prevIndex + 1);
+            carousel.style.transform = `translateX(-${800 * (index + 1)}px)`; // 다음 버튼 클릭 시 carousel 이동
+        };
 
-    const nextButtonClickHandler = () => {
-      if (index === 2) return;
-      index += 1;
+        prevButton.addEventListener('click', handlePrevClick);
+        nextButton.addEventListener('click', handleNextClick);
 
-      carousel.style.transform = `translate3d(-${500 * index}px, 0, 0)`;
-    };
+        return () => {
+            prevButton.removeEventListener('click', handlePrevClick);
+            nextButton.removeEventListener('click', handleNextClick);
+        };
+    }, [index]);
 
-    if (prevButton && nextButton && carousel) {
-      prevButton.addEventListener("click", prevButtonClickHandler);
-      nextButton.addEventListener("click", nextButtonClickHandler);
-    }
-
-    // clean up event listeners
-    return () => {
-      if (prevButton && nextButton) {
-        prevButton.removeEventListener("click", prevButtonClickHandler);
-        nextButton.removeEventListener("click", nextButtonClickHandler);
-      }
-    };
-  }, []); // Empty dependency array to ensure this effect runs only once
-
-  return (
-    <div className="carousel-wrapper">
-      <div className="carousel">
-        <img src={`./picture01.jpg`} />
-        <img src={`./picture01.jpg`} />
-        <img src={`./picture01.jpg`} />
-      </div>
-      <button className="prev" type="button">
-        prev
-      </button>
-      <button className="next" type="button">
-        next
-      </button>
-    </div>
-  );
+    return (
+        <div className="carousel-wrapper">
+          <p>Gallery</p>
+            <div className="carousel">
+                <img src={`./picture01.jpg`} />
+                <img src={`./picture02.jpg`} />
+                <img src={`./picture03.jpg`}/>
+            </div>
+            <button className="prev" type="button">
+                prev
+            </button>
+            <button className="next" type="button">
+                next
+            </button>
+        </div>
+    );
 }
