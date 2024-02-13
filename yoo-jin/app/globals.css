@@ -73,23 +73,25 @@ hr {
 .contact {
     width: 800px;
     height: 300px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 50px 0 50px 0;
     background-color: #eee;
+    margin: 50px 0;
+    text-align: center;
 }
-.phone {
-    width: 300px;
-    height: 100px;
-    background-color: #d1d1d1;
-    margin: 50px 0 50px 0;
+.contactSections {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: ;
+    margin-top: 30px;
 }
-.message {
+.contactGroom {
     width: 300px;
-    height: 100px;
+    height: 200px;
     background-color: #d1d1d1;
-    margin: 50px 0 50px 0;
+}
+.contactBride {
+    width: 300px;
+    height: 200px;
+    background-color: #d1d1d1;
 }
 .account {
     width: 800px;
