@@ -7,7 +7,7 @@ import { ThanksTo } from './components/ThanksTo';
 import { Contact } from './components/Contact';
 import { Account } from './components/Account';
 import { DateTwo } from './components/DateTwo';
-import { Location } from './components/Location';
+import { Map } from './components/Map';
 import { Transport } from './components/Transport';
 import { Gallery } from './components/Gallery';
 
@@ -15,7 +15,7 @@ export default function Home() {
     return (
         <div className="container">
             <div className="text">THE WEDDING DAY</div>
-            <img src={`/picture01.jpg`} className="picture"></img>
+            <img src={`/picture02.jpg`} className="picture"></img>
             <Intro />
             <DateOne />
             <hr></hr>
@@ -31,7 +31,7 @@ export default function Home() {
             <hr></hr>
             <DateTwo />
             <hr></hr>
-            <Location />
+            <Map />
             <hr></hr>
             <Transport />
             <hr></hr>

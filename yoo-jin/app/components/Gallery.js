@@ -19,7 +19,7 @@ export function Gallery() {
 
         const handleNextClick = () => {
             console.log('Next button clicked');
-            if (index === 2) return;
+            if (index === 4) return;
             setIndex((prevIndex) => prevIndex + 1);
             carousel.style.transform = `translateX(-${800 * (index + 1)}px)`; // 다음 버튼 클릭 시 carousel 이동
         };
@@ -35,11 +35,13 @@ export function Gallery() {
 
     return (
         <div className="carousel-wrapper">
-          <p>Gallery</p>
+            <p>Gallery</p>
             <div className="carousel">
                 <img src={`./picture01.jpg`} />
                 <img src={`./picture02.jpg`} />
-                <img src={`./picture03.jpg`}/>
+                <img src={`./picture03.jpg`} />
+                <img src={`./picture04.jpg`} />
+                <img src={`./picture05.jpg`} />
             </div>
             <button className="prev" type="button">
                 prev
