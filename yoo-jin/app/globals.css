@@ -19,13 +19,10 @@ hr {
 .container {
     width: 800px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 .picture {
-    width: 800px;
-    height: 550px;
-    margin-top: 200px;
+    width: 100%;
 }
 .text {
     text-align: right;
@@ -33,12 +30,16 @@ hr {
     margin-top: 100px;
     font-weight: bold;
 }
-.intro {
-    width: 500px;
-    height: 200px;
-    margin-top: 250px;
-    margin-bottom: 20px;
-    background-color: #eee;
+.main-info {
+    margin-top: 50px;
+}
+.main-info-title p {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2rem;
+    letter-spacing: 0.8rem;
+    /* background-color: #eee; */
 }
 .dateOne {
     width: 500px;
