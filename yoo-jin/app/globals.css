@@ -49,23 +49,13 @@
     font-size: 1.6rem;
 }
 
-.groomBride {
-    width: 800px;
-    height: 200px;
-    background-color: #eee;
-    margin: 50px 0 50px 0;
-}
-.dateLocation {
-    width: 800px;
-    height: 200px;
-    background-color: #eee;
-    margin: 50px 0 50px 0;
-}
-.thanksTo {
-    width: 800px;
-    height: 1000px;
-    background-color: #eee;
-    margin: 50px 0 50px 0;
+.greeting p {
+    margin: 0 auto;
+    margin: 0 auto;
+    padding: 0 2.3rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
 }
 .contact {
     width: 800px;

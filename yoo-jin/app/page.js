@@ -1,8 +1,6 @@
 import { MainInfo } from './components/main-info';
 import { MainText } from './components/main-text';
-import { GroomBride } from './components/GroomBride';
-import { DateLocation } from './components/DateLocation';
-import { ThanksTo } from './components/ThanksTo';
+import { Greeting } from './components/Greeting';
 import { Contact } from './components/Contact';
 import { Account } from './components/Account';
 import { Calendar } from './components/Calendar';
@@ -17,9 +15,7 @@ export default function Home() {
             <img src={`/picture02.jpg`} className="picture"></img>
             <MainInfo />
             <MainText />
-            <GroomBride />
-            <DateLocation />
-            <ThanksTo />
+            <Greeting />
             <Contact />
             <Account />
             <Calendar />
