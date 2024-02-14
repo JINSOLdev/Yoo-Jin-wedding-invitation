@@ -1,6 +1,5 @@
 import { MainInfo } from './components/main-info';
-import { DateOne } from './components/DateOne';
-import { Lyrics } from './components/Lyrics';
+import { MainText } from './components/main-text';
 import { GroomBride } from './components/GroomBride';
 import { DateLocation } from './components/DateLocation';
 import { ThanksTo } from './components/ThanksTo';
@@ -17,7 +16,7 @@ export default function Home() {
             <div className="text">THE WEDDING DAY</div>
             <img src={`/picture02.jpg`} className="picture"></img>
             <MainInfo />
-            <Lyrics />
+            <MainText />
             <GroomBride />
             <DateLocation />
             <ThanksTo />

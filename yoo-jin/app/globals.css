@@ -40,18 +40,15 @@
     text-align: center;
     margin: 0;
 }
-.dateOne {
-    width: 500px;
-    height: 100px;
-    background-color: #eee;
-    margin: 0 0 50px 0;
+
+.main-text p {
+    margin: 0 auto;
+    padding: 0 2.3rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
 }
-.lyrics {
-    width: 800px;
-    height: 1000px;
-    background-color: #eee;
-    margin: 50px 0 50px 0;
-}
+
 .groomBride {
     width: 800px;
     height: 200px;
