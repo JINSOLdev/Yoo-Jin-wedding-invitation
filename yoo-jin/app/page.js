@@ -16,11 +16,11 @@ export default function Home() {
             <MainInfo />
             <MainText />
             <Greeting />
-            <Contact />
-            <Account />
             <Calendar />
+            <Account />
             <Map />
             <Transport />
+            <Contact />
             <Gallery />
             <p className="rights">© 2024-04-06 Yoohwan, Jinsol</p>
         </div>

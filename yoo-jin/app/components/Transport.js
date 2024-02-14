@@ -1,3 +1,7 @@
 export function Transport() {
-  return <div className="transport">교통(주차안내, 지하철, 버스)</div>;
+  return (
+<div className="transport">
+    오시는 길
+  </div>
+  )
 }
