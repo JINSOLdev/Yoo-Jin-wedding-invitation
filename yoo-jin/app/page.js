@@ -17,9 +17,9 @@ export default function Home() {
             <MainText />
             <Greeting />
             <Calendar />
-            <Account />
             <Map />
             <Transport />
+            <Account />
             <Contact />
             <Gallery />
             <p className="rights">© 2024-04-06 Yoohwan, Jinsol</p>
