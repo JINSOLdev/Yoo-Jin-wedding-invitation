@@ -6,7 +6,7 @@ import { DateLocation } from './components/DateLocation';
 import { ThanksTo } from './components/ThanksTo';
 import { Contact } from './components/Contact';
 import { Account } from './components/Account';
-import { DateTwo } from './components/DateTwo';
+import { Calendar } from './components/Calendar';
 import { Map } from './components/Map';
 import { Transport } from './components/Transport';
 import { Gallery } from './components/Gallery';
@@ -29,7 +29,7 @@ export default function Home() {
             <hr></hr>
             <Account />
             <hr></hr>
-            <DateTwo />
+            <Calendar />
             <hr></hr>
             <Map />
             <hr></hr>

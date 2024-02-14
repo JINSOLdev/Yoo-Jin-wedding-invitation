@@ -1,6 +1,6 @@
-export function DateTwo() {
+export function Calendar() {
     return (
-        <div className="dateTwo">
+        <div className="calendar">
             날짜<br></br>
             <br></br>
             <div id="calendar">
