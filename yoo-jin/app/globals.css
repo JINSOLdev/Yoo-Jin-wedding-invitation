@@ -11,11 +11,6 @@
     box-sizing: border-box;
 }
 
-hr {
-    background: #eee;
-    height: 1px;
-    border: 0;
-}
 .container {
     width: 800px;
     display: block;
@@ -26,9 +21,8 @@ hr {
 }
 .text {
     text-align: right;
-    padding: 20px;
-    margin-top: 100px;
-    font-weight: bold;
+    margin: 100px 0 100px 0;
+    font-size: 1.1rem;
 }
 .main-info {
     margin-top: 50px;
@@ -40,6 +34,11 @@ hr {
     font-size: 2rem;
     letter-spacing: 0.8rem;
     /* background-color: #eee; */
+}
+.main-info-location p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
 }
 .dateOne {
     width: 500px;
