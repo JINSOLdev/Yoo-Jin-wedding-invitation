@@ -22,6 +22,7 @@ export default function Home() {
             <Account />
             <Contact />
             <Gallery />
+            <br></br>
             <p className="rights">© 2024-04-06 Yoohwan, Jinsol</p>
         </div>
     );
