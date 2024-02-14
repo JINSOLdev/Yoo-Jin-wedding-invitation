@@ -11,6 +11,7 @@ export function MainText() {
             <br></br>
             <br></br>
             <p>박미라, 아름다운 날에 부치다 中 </p> <br></br>
+            <div className="divide-line"></div>
         </div>
     );
 }
