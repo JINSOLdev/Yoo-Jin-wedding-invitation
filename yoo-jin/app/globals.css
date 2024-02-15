@@ -323,20 +323,39 @@ ul {
     margin: 0 3rem;
 }
 
+/* map */
 .map p {
     font-size: 1.8rem;
     text-align: center;
     margin-bottom: 2rem;
 }
 
-.map p:nth-child(2){
-    font-size: 1.5rem
+.map p:nth-child(2) {
+    font-size: 1.5rem;
 }
+
+/* transport */
 .transport {
-    width: 800px;
-    height: 800px;
-    background-color: #eee;
-    margin: 50px 0 50px 0;
+    width: 100%;
+    height: auto;
+    font-size: 1.5rem;
+    margin: 50px auto;
+}
+
+.transport p {
+    /* font-size: 1.8rem; */
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#subway p:nth-child(1),
+#bus p:nth-child(1),
+#car p:nth-child(1) {
+    font-weight: bold;
+}
+
+.car_info {
+    font-size: 1.3rem;
 }
 
 /* gallery */
