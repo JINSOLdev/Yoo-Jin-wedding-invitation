@@ -296,25 +296,40 @@ ul {
     }
 }
 
+li {
+    list-style-type: none;
+}
+
+/* contact */
 .contact {
     display: flex;
-    padding-top: 3.4rem;
-    justify-content: space-around;
-    /* width: 8rem; */
-    opacity: 0.6;
+    flex-direction: column;
+    text-align: center;
+    height: 30rem;
+    font-size: 1.5rem;
+}
+
+.num{
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    font-weight: bold;
+}
+
+.contact-box {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
 }
 
 .contact-1-call img,
 .contact-1-msg img {
     margin-right: 1rem;
     width: 1.5rem;
-    display: flex;
-    flex-direction: row;
 }
 
 .buttons {
     display: flex;
-    padding-top: 3.4rem;
+    padding-top: 1.2rem;
     justify-content: space-around;
     width: 8rem;
     opacity: 0.6;
@@ -329,8 +344,9 @@ ul {
     margin: 0 3rem;
 }
 
-li {
-    list-style-type: none;
+.grooms p,
+.brides p {
+    margin-bottom: 2rem;
 }
 
 /* map */
