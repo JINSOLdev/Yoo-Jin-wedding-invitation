@@ -4,7 +4,7 @@ import { useState } from "react";
 // 일반적으로 export default를 사용하는 것이 좋음.
 // export와 export default의 차이점에 대해서 알아보고 사용하는 것이 중요함.
 // export default를 사용하면 import할 때 중괄호를 사용하지 않아도 되고 하나의 모듈만 export 되기 때문에 컴포넌트를 사용할 때에는 export default를 사용하는 것이 좋음.
-export function Account() {
+export default function Account() {
   const [isClicked, setIsClicked] = useState(false);
   const [acc_w, setAccW] = useState(false);
   const [currentAccount, setCurrentAccount] = useState(null);

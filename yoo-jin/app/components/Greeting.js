@@ -1,4 +1,4 @@
-export function Greeting() {
+export default function Greeting() {
   return (
     <div className="greeting">
       <br></br>

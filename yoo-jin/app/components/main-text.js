@@ -1,4 +1,4 @@
-export function MainText() {
+export default function MainText() {
   return (
     <div className="main-text">
       <p>사랑은 소유가 아니라</p> <br></br>

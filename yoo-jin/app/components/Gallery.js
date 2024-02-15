@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-export function Gallery() {
+export default function Gallery() {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {

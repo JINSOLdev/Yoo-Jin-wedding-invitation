@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export function Calendar() {
+export default function Calendar() {
   // 여기에서 상태값이 왜 필요한지? 불필요한 상태값은 불필요한 리렌더링과 불필요한 UI 버그를 가져옴.
   const [days, setDays] = useState([
     { name: "Sun", style: "sun" },

@@ -1,4 +1,4 @@
-export function MainInfo() {
+export default function MainInfo() {
   return (
     <div className="main-info">
       <div className="main-info-title">
