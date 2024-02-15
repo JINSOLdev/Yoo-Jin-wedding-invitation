@@ -323,11 +323,14 @@ ul {
     margin: 0 3rem;
 }
 
-#map {
-    width: 800px;
-    height: 800px;
-    background-color: #eee;
-    margin: 50px 0 50px 0;
+.map p {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.map p:nth-child(2){
+    font-size: 1.5rem
 }
 .transport {
     width: 800px;
