@@ -14,7 +14,7 @@ export default function Greeting() {
       <br></br>
       <p>서로 아끼고 존중하며 살아가겠습니다.</p> <br></br>
       <p>첫걸음을 함께 내딛는 소중한 날,</p> <br></br>
-      <p>귀한 걸음하시어 축복해쥐면</p> <br></br>
+      <p>귀한 걸음하시어 축복해주시면</p> <br></br>
       <p>큰 기쁨으로 간직하겠습니다.</p> <br></br>
       <br></br>
       <br></br>
