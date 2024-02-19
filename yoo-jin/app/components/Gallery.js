@@ -4,6 +4,7 @@ import { useState, useRef } from 'react';
 
 export default function Gallery() {
     const [startX, setStartX] = useState(null);
+    const [currentX, setCurrentX] = useState(null);
     const [isDragging, setIsDragging] = useState(false);
     const [draggingIndex, setDraggingIndex] = useState(0);
     const carouselRef = useRef(null);
@@ -11,21 +12,22 @@ export default function Gallery() {
 
     const handleTouchStart = (e) => {
         setStartX(e.touches[0].pageX);
+        setCurrentX(e.touches[0].pageX);
         setIsDragging(true);
     };
 
     const handleTouchMove = (e) => {
         if (!isDragging) return;
-        const x = e.touches[0].pageX;
-        const diff = x - startX;
-        const newIndex = draggingIndex - Math.round(diff / 100);
-        const newIndexClamped = Math.min(Math.max(newIndex, 0), numImages - 1); // 새로운 인덱스를 0부터 numImages - 1까지로 제한
-        carouselRef.current.style.transform = `translateX(-${newIndexClamped * 100}%)`;
-        setDraggingIndex(newIndexClamped);
+        setCurrentX(e.touches[0].pageX);
     };
 
     const handleTouchEnd = () => {
         setIsDragging(false);
+        const diff = startX - currentX;
+        const newIndex = diff > 0 ? draggingIndex + 1 : draggingIndex - 1;
+        const newIndexClamped = Math.min(Math.max(newIndex, 0), numImages - 1);
+        carouselRef.current.style.transform = `translateX(-${newIndexClamped * 100}%)`;
+        setDraggingIndex(newIndexClamped);
     };
 
     return (
