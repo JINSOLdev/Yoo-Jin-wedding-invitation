@@ -57,6 +57,9 @@ export default function Gallery() {
                     다음
                 </button>
             </div>
+            <br></br>
+            <br></br>
+            <div className="divide-line"></div>
         </div>
     );
 }
