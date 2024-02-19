@@ -69,6 +69,13 @@ export default function Calendar() {
     return (
         <div className="calendar">
             <div className="title">
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <p style={{ fontSize: '2rem', fontWeight: 'bold' }}>날짜</p>
+                <br></br>
+                <br></br>
                 <p>2024.04.06</p>
                 <div className="desc">토요일 오전 11시</div>
             </div>

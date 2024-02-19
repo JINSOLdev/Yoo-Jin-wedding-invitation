@@ -1,7 +1,8 @@
 export default function Transport() {
     return (
         <div className="transport">
-          <p>오시는 길</p>
+            <p style={{ fontSize: '2rem', fontWeight: 'bold' }}>오시는 길</p>
+            <br></br>
             <div id="subway">
                 <p>지하철</p>
                 <p>2,5호선 충정로역 하차</p>
@@ -18,15 +19,13 @@ export default function Transport() {
             <br></br>
             <div id="car">
                 <p>주차장</p>
-                <p>서소문성지역사박물관 공영주차장(서울특별시 중구 칠패로 5)</p>
-                <p>주차권은 접수 테이블에서 받아주세요 (2시간 무료)</p>
+                <p>서소문성지역사박물관 공영주차장 (서울특별시 중구 칠패로 5)</p>
+                <p style={{fontSize: '1.2rem'}}>*성당 내 주차는 불가합니다. 주차권은 접수 테이블에서 받아주세요(2시간 무료) </p>
             </div>
             <br></br>
-            <div id="car_info">
-                <p>성당 내 주차가 불가하오니</p>
-                <p>가급적 대중교통을 이용해 주시기 바랍니다.</p>
+            <div id="info">
+                <p style={{ fontWeight: 'bold' }}>안내</p>
                 <p>성당 규정상 화환은 정중히 사양합니다.</p>
-                <br></br>
                 <p>화환 대신 축복미를 보내주시면 어려운 이웃에게 전달하겠습니다.</p>
                 <p>(축복미 번호 : 02-727-2254)</p>
             </div>

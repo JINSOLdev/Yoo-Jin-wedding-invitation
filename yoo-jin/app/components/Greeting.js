@@ -28,6 +28,9 @@ export default function Greeting() {
             <br></br>
             <br></br>
             <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <p>결혼을 축하해주시는 모든 분들께</p>
             <br></br>
             <p>진심으로 감사드리며</p>
@@ -44,11 +47,11 @@ export default function Greeting() {
             <br></br>
             <br></br>
             <br></br>
-            <p>신랑 신유환 · 신부 김진솔 올림</p>
+            <p style={{ fontSize: '1.7rem' }}>신랑 신유환 · 신부 김진솔 올림</p>
             <br></br>
             <br></br>
             <br></br>
-            <br></br>
+            {/* <br></br> */}
             <div className="divide-line"></div>
         </div>
     );

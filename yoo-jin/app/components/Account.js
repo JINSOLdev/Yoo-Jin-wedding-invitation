@@ -6,10 +6,10 @@ export default function Account() {
     const [isClicked, setIsClicked] = useState(false);
     const [acc_w, setAccW] = useState(false);
     const [currentAccount, setCurrentAccount] = useState(null);
-    const groom_m = '농협 123-456789-12-345';
-    const groom_w = '농협 987-654321-98-765';
-    const bride_m = '우리 123-456789-12-345';
-    const bride_w = '우리 987-654321-98-765';
+    const groom_m = '기업 486-009145-01-084';
+    const groom_w = '우리 39908019266';
+    const bride_m = '신한 624-12-222160';
+    const bride_w = '우리 414-032004-12-001';
 
     const handleAccount = (event) => {
         setIsClicked(!isClicked);
@@ -111,6 +111,7 @@ export default function Account() {
             )}
             <div className="account-info">
                 <p>마음 전하실 곳</p>
+                <br></br>
                 <button className="acc-btn1" onClick={handleAccount} id="acc_m">
                     신랑측 계좌번호 보기
                 </button>

@@ -1,7 +1,9 @@
 export default function Contact() {
     return (
         <div className="contact">
+            <br></br>
             <p className="num">연락처</p>
+            <br></br>
             <div className="contact-box">
                 <div className="grooms">
                     <p>신랑측</p>
@@ -91,6 +93,7 @@ export default function Contact() {
                 </div>
             </div>
             <div>
+                <br></br>
                 <div className="divide-line"></div>
             </div>
         </div>

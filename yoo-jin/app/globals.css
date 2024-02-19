@@ -309,7 +309,7 @@ li {
     font-size: 1.5rem;
 }
 
-.num{
+.num {
     font-size: 2rem;
     margin-bottom: 4rem;
     font-weight: bold;
@@ -387,10 +387,11 @@ li {
 /* gallery */
 .carousel-wrapper {
     width: 100%;
-    height: 600px;
+    height: 800px;
     overflow: hidden;
-    /* margin: 50px 0 10px 0; */
     position: relative;
+    /* background-color: antiquewhite; */
+    margin-top: 9rem;
 }
 
 .carousel-wrapper p {
@@ -408,6 +409,16 @@ li {
 .carousel img {
     width: 100%;
     height: 550px;
+}
+.btn {
+    text-align: center;
+    margin-top: 2rem;
+}
+.prev,
+.next {
+    display: inline-block;
+    font-size: 1.3rem;
+    margin: 0 10px;
 }
 
 .rights {
