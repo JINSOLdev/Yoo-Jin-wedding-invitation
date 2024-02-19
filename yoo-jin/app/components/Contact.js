@@ -12,16 +12,16 @@ export default function Contact() {
                             <p>아버지 신희찬</p>
                             <div className="buttons parents">
                                 <div className="contact-1-call">
-                                    <a href="tell:010-8258-0870">
+                                    <a href="tel:010-8258-0870">
                                         <div className="icon">
-                                            <img src="/phone.svg"></img>
+                                            <img src="/phone.svg" />
                                         </div>
                                     </a>
                                 </div>
                                 <div className="contact-1-msg">
                                     <a href="sms:010-8258-0870">
                                         <div className="icon">
-                                            <img src="/envelope.svg"></img>
+                                            <img src="/envelope.svg" />
                                         </div>
                                     </a>
                                 </div>
@@ -31,16 +31,16 @@ export default function Contact() {
                             <p>어머니 정수희</p>
                             <div className="buttons parents">
                                 <div className="contact-1-call">
-                                    <a href="tell:010-9590-2541">
+                                    <a href="tel:010-9590-2541">
                                         <div className="icon">
-                                            <img src="/phone.svg"></img>
+                                            <img src="/phone.svg" />
                                         </div>
                                     </a>
                                 </div>
                                 <div className="contact-1-msg">
                                     <a href="sms:010-9590-2541">
                                         <div className="icon">
-                                            <img src="/envelope.svg"></img>
+                                            <img src="/envelope.svg" />
                                         </div>
                                     </a>
                                 </div>
@@ -55,7 +55,7 @@ export default function Contact() {
                             <p>아버지 김명섭</p>
                             <div className="buttons parents">
                                 <div className="contact-1-call">
-                                    <a href="tell:010-4797-2691">
+                                    <a href="tel:010-4797-2691">
                                         <div className="icon">
                                             <img src="/phone.svg"></img>
                                         </div>
@@ -74,7 +74,7 @@ export default function Contact() {
                             <p>어머니 정순애</p>
                             <div className="buttons parents">
                                 <div className="contact-1-call">
-                                    <a href="tell:010-6243-2693">
+                                    <a href="tel:010-6243-2693">
                                         <div className="icon">
                                             <img src="/phone.svg"></img>
                                         </div>

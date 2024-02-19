@@ -29,8 +29,8 @@ export default function Home() {
             <Account />
             <Contact />
             <Gallery />
-            <Notice />
             <br></br>
+            <Notice />
             <p className="rights">© 2024-04-06 Yoohwan, Jinsol</p>
         </div>
     );
