@@ -9,14 +9,14 @@ export default function Gallery() {
     const carouselRef = useRef(null);
     const numImages = 5; // 등록된 이미지의 개수
 
-    const handleMouseDown = (e) => {
-        setStartX(e.pageX);
+    const handleTouchStart = (e) => {
+        setStartX(e.touches[0].pageX);
         setIsDragging(true);
     };
 
-    const handleMouseMove = (e) => {
+    const handleTouchMove = (e) => {
         if (!isDragging) return;
-        const x = e.pageX;
+        const x = e.touches[0].pageX;
         const diff = x - startX;
         const newIndex = draggingIndex - Math.round(diff / 100);
         const newIndexClamped = Math.min(Math.max(newIndex, 0), numImages - 1); // 새로운 인덱스를 0부터 numImages - 1까지로 제한
@@ -24,7 +24,7 @@ export default function Gallery() {
         setDraggingIndex(newIndexClamped);
     };
 
-    const handleMouseUp = () => {
+    const handleTouchEnd = () => {
         setIsDragging(false);
     };
 
@@ -33,7 +33,7 @@ export default function Gallery() {
             <p style={{ fontSize: '2rem', fontWeight: 'bold' }}>갤러리</p>
             <br />
             <br />
-            <div className="carousel" ref={carouselRef} onMouseDown={handleMouseDown} onMouseMove={handleMouseMove} onMouseUp={handleMouseUp}>
+            <div className="carousel" ref={carouselRef} onTouchStart={handleTouchStart} onTouchMove={handleTouchMove} onTouchEnd={handleTouchEnd}>
                 <img src={`./picture01.jpg`} />
                 <img src={`./picture02.jpg`} />
                 <img src={`./picture03.jpg`} />
