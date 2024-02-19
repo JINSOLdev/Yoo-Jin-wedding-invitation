@@ -385,7 +385,6 @@ li {
     height: 800px;
     overflow: hidden;
     position: relative;
-    /* background-color: antiquewhite; */
     margin-top: 9rem;
 }
 
@@ -400,28 +399,15 @@ li {
     display: flex;
     transform: translate3d(0, 0, 0);
     transition: transform 1s;
+    margin-bottom: 9rem;
 }
+
 .carousel img {
     width: 100%;
     height: 550px;
 }
-.btn {
-    text-align: center;
-    margin-top: 0.5rem;
-}
-.prev,
-.next {
-    display: inline-block;
-    font-size: 1.1rem;
-    padding: 0.3rem;
-    margin: 0 5px;
-    border-radius: 0.5rem;
-    border: none;
-    background-color: lightgray;
-    color: white;
-    cursor: pointer;
-}
 
+/* notice */
 .notice {
     width: 100%;
     height: auto;
