@@ -22,6 +22,7 @@ export default function MainInfo() {
             <br></br>
             <br></br>
             <br></br>
+            <br></br>
             <div className="divide-line"></div>
         </div>
     );
