@@ -369,7 +369,6 @@ li {
 }
 
 .transport p {
-    /* font-size: 1.8rem; */
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -378,10 +377,6 @@ li {
 #bus p:nth-child(1),
 #car p:nth-child(1) {
     font-weight: bold;
-}
-
-.car_info {
-    font-size: 1.3rem;
 }
 
 /* gallery */
@@ -419,6 +414,18 @@ li {
     display: inline-block;
     font-size: 1.3rem;
     margin: 0 10px;
+}
+
+.notice {
+    width: 100%;
+    height: auto;
+    font-size: 1.5rem;
+    margin: 50px auto;
+}
+
+.notice_text {
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 .rights {

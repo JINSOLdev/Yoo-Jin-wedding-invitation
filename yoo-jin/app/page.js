@@ -7,6 +7,7 @@ import Calendar from './components/Calendar';
 import Map from './components/Map';
 import Transport from './components/Transport';
 import Gallery from './components/Gallery';
+import Notice from './components/Notice';
 // 프론트 작업을 할때에 기본적인 부분은 시맨틱 요소로 구성하는 습관을 들이는 것이 좋음.
 // 그리고 reset.css를 사용하여 기본적인 스타일을 초기화하는 것이 좋음.
 // reset.css는 각자 쓰는 부분을 레퍼런스로 갖고 있는데 찾아보던가 아니면 직접 만들어서 사용하는 것이 좋음.(필요하면 요청하면 보내드릴 수 있음.)
@@ -28,6 +29,7 @@ export default function Home() {
             <Account />
             <Contact />
             <Gallery />
+            <Notice />
             <br></br>
             <p className="rights">© 2024-04-06 Yoohwan, Jinsol</p>
         </div>
