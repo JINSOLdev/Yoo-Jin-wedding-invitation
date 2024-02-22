@@ -322,6 +322,11 @@ li {
     justify-content: space-evenly;
 }
 
+.parents-contact p {
+    background-color: beige;
+    margin: auto;
+}
+
 .contact-1-call img,
 .contact-1-msg img {
     margin-right: 1rem;
@@ -330,24 +335,24 @@ li {
 
 .buttons {
     display: flex;
-    padding-top: 1.2rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 8rem;
     opacity: 0.6;
+    margin: 0;
+    /* background-color: antiquewhite; */
 }
 
 .parents {
-    padding: 1rem 0 1rem 1.5rem;
+    margin: 0 0 1rem 0.7rem;
+    background-color: aquamarine;
 }
 
-.grooms,
-.brides {
-    margin: 0 3rem;
-}
-
-.grooms p,
-.brides p {
+.parent p {
     margin-bottom: 2rem;
+}
+
+.icon {
+    margin-bottom: 0.8rem;
 }
 
 /* map */

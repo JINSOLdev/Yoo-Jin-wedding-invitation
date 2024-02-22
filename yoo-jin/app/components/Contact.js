@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 
 function ContactInfo({ name, phoneNumber }) {
@@ -26,9 +28,9 @@ function ContactInfo({ name, phoneNumber }) {
 
 function ParentContact({ title, contacts }) {
     return (
-        <div className="grooms">
+        <div className="parent">
             <p>{title}</p>
-            <div className="grooms-contact">
+            <div className="parents-contact">
                 {contacts.map((contact, index) => (
                     <ContactInfo key={index} name={contact.name} phoneNumber={contact.phoneNumber} />
                 ))}
@@ -37,18 +39,18 @@ function ParentContact({ title, contacts }) {
     );
 }
 
-export default function Contact() {
-    const parentsContacts = {
-        groom: [
-            { name: '아버지 신희찬', phoneNumber: '010-8258-0870' },
-            { name: '어머니 정수희', phoneNumber: '010-9590-2541' },
-        ],
-        bride: [
-            { name: '아버지 김명섭', phoneNumber: '010-4797-2691' },
-            { name: '어머니 정순애', phoneNumber: '010-6243-2693' },
-        ],
-    };
+const parentsContacts = {
+    groom: [
+        { name: '아버지 신희찬', phoneNumber: '010-8258-0870' },
+        { name: '어머니 정수희', phoneNumber: '010-9590-2541' },
+    ],
+    bride: [
+        { name: '아버지 김명섭', phoneNumber: '010-4797-2691' },
+        { name: '어머니 정순애', phoneNumber: '010-6243-2693' },
+    ],
+};
 
+export default function Contact() {
     return (
         <div className="contact">
             <br />
