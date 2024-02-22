@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 
+@viewport {
+    width: device-width;
+    initial-scale: 1;
+    minimum-scale: 1;
+    maximum-scale: 1;
+    user-scalable: no;
+}
+
 .container {
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 400;
@@ -9,14 +17,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-@viewport {
-    width: device-width;
-    initial-scale: 1;
-    minimum-scale: 1;
-    maximum-scale: 1;
-    user-scalable: no;
 }
 
 .container {
