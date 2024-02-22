@@ -14,6 +14,7 @@ export default function MainInfo() {
                 <br />
                 <br />
                 <br />
+                <br />
             </div>
             <div className="main-info-location">
                 <p>2024년 04월 06일 토요일 오전 11시</p>
@@ -24,7 +25,8 @@ export default function MainInfo() {
             <br />
             <br />
             <br />
-            <div className="divide-line" />
+            <br />
+            {/* <div className="divide-line" /> */}
         </div>
     );
 }
