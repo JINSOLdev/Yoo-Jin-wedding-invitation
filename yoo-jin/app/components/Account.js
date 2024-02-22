@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 const AccountSection = ({ title, accounts, onCopy }) => {
     return (
         <div>
-            <li>{title}</li>
+            <li style={{ fontWeight: 'bold' }}>{title}</li>
             <div className="divide"></div>
             {accounts.map((account, index) => (
                 <div className="account-row" key={index}>

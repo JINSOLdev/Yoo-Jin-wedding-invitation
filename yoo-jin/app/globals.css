@@ -352,6 +352,10 @@ li {
     margin-bottom: 0.8rem;
 }
 
+.account-row-column-text li:nth-child(2) {
+    font-size: 1.2rem;
+}
+
 /* map */
 .map p {
     font-size: 1.8rem;
