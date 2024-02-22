@@ -193,6 +193,7 @@ ul {
 .account-row {
     display: flex;
     justify-content: space-between;
+    margin: 0.3rem 0 0.7rem 0;
 }
 
 .account-row-column-text {
