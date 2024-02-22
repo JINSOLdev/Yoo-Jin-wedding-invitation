@@ -9,6 +9,13 @@ import Transport from './components/Transport';
 import Gallery from './components/Gallery';
 import Notice from './components/Notice';
 
+export const viewport = {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+    userScalable: false,
+};
+
 export default function Home() {
     return (
         <div className="container">
