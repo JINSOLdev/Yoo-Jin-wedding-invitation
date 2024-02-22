@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="ko">
             <Head>
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, width=device-width" />
             </Head>
             <body className={inter.className}>{children}</body>
         </html>
