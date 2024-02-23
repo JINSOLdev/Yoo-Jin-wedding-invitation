@@ -4,6 +4,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
+    metadataBase: 'http://localhost:3000/',
     openGraph: {
         title: "YooWhan & Jinsol's Wedding",
         description: 'Generated  by create next app',
@@ -15,7 +16,7 @@ export const viewport = {
     width: 'device-width',
     initialScale: 1,
     maximumScale: 1,
-    userScalable: true,
+    userScalable: false,
 };
 
 export default function RootLayout({ children }) {
